@@ -102,6 +102,15 @@ Hey, Netology
 root@4e3cffe6d256:/# exit
 exit
 ```
+```
+root@docker:/home/kuliaev/custom-nginx# ss -tlpn | grep 127.0.0.1:8080
+LISTEN 0      4096       127.0.0.1:8080       0.0.0.0:*    users:(("docker-proxy",pid=9017,fd=4))    
+root@docker:/home/kuliaev/custom-nginx# docker port custom-nginx-t2
+80/tcp -> 127.0.0.1:8080
+root@docker:/home/kuliaev/custom-nginx# curl http://127.0.0.1:8080
+curl: (56) Recv failure: Соединение разорвано другой стороной
+root@docker:/home/kuliaev/custom-nginx# 
+
 Проблема заключается в том, что Nginx теперь слушает на порту 81 внутри контейнера, но Docker по-прежнему пробрасывает порт 8080 на хосте к порту 80 внутри контейнера. Так как Nginx больше не слушает порт 80, запросы на порт 8080 хоста не проходят.
 ```
 
