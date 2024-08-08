@@ -82,7 +82,9 @@ kuliaev@docker:~/custom-nginx$
 ```
 Контейнер остановился, потому что при нажатии Ctrl-C я отправили сигнал прерывания  процессу, который работает в контейнере.
 ```
+
 ```
+root@4e3cffe6d256:/# apt-get update && apt-get install -y nano
 root@4e3cffe6d256:/# nano /etc/nginx/conf.d/default.conf
 root@4e3cffe6d256:/# nginx -s reload
 2024/08/08 04:40:27 [notice] 703#703: signal process started
@@ -99,6 +101,8 @@ Hey, Netology
 </html>
 root@4e3cffe6d256:/# exit
 exit
+```
+Проблема заключается в том, что Nginx теперь слушает на порту 81 внутри контейнера, но Docker по-прежнему пробрасывает порт 8080 на хосте к порту 80 внутри контейнера. Так как Nginx больше не слушает порт 80, запросы на порт 8080 хоста не проходят.
 ```
 
 ## Задача 4
