@@ -114,6 +114,27 @@ root@docker:/home/kuliaev/custom-nginx#
 Проблема заключается в том, что Nginx теперь слушает на порту 81 внутри контейнера, но Docker по-прежнему пробрасывает порт 8080 на хосте к порту 80 внутри контейнера. Так как Nginx больше не слушает порт 80, запросы на порт 8080 хоста не проходят.
 ```
 
+```
+root@docker:/home/kuliaev/custom-nginx# docker stop custom-nginx-t2
+custom-nginx-t2
+root@docker:/home/kuliaev/custom-nginx# docker commit custom-nginx-t2 custom-nginx-t2-fixed
+sha256:8ec991007685aa0d59080e9198aed0f419719d456c76ddd63ab470133962768b
+root@docker:/home/kuliaev/custom-nginx# docker run -d --name custom-nginx-t2-fixed -p 127.0.0.1:8080:81 custom-nginx-t2-fixed
+fb41bb2121bb141f9fbf069c95489446dbcf5642fe64b6af82170b46cce3074a
+root@docker:/home/kuliaev/custom-nginx# curl http://127.0.0.1:8080
+<html>
+<head>
+Hey, Netology
+</head>
+<body>
+<h1>I will be DevOps Engineer!</h1>
+</body>
+</html>
+root@docker:/home/kuliaev/custom-nginx# docker rm -f custom-nginx-t2
+custom-nginx-t2
+root@docker:/home/kuliaev/custom-nginx# 
+```
+
 ## Задача 4
 
 
