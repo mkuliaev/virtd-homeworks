@@ -77,7 +77,7 @@ kuliaev@docker:~/custom-nginx$
 ```
 <details>
    
-![Screnshot](https://github.com/mkuliaev/sflt-homeworks/blob/main/png/pkt/routers.png)
+![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-03-docker-intro/png/docker_2_1.png)
    
 </details>
 
