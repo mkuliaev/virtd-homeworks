@@ -82,6 +82,24 @@ kuliaev@docker:~/custom-nginx$
 ```
 Контейнер остановился, потому что при нажатии Ctrl-C я отправили сигнал прерывания  процессу, который работает в контейнере.
 ```
+```
+root@4e3cffe6d256:/# nano /etc/nginx/conf.d/default.conf
+root@4e3cffe6d256:/# nginx -s reload
+2024/08/08 04:40:27 [notice] 703#703: signal process started
+root@4e3cffe6d256:/# curl http://127.0.0.1:80
+curl: (7) Failed to connect to 127.0.0.1 port 80: Connection refused
+root@4e3cffe6d256:/# curl http://127.0.0.1:81
+<html>
+<head>
+Hey, Netology
+</head>
+<body>
+<h1>I will be DevOps Engineer!</h1>
+</body>
+</html>
+root@4e3cffe6d256:/# exit
+exit
+```
 
 ## Задача 4
 
