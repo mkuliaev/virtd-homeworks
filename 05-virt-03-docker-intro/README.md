@@ -27,6 +27,17 @@ __________________
 https://hub.docker.com/layers/mkuliaev/custom-nginx/1.0.0/images/sha256-395b4b6a90e1dde55847d4ccc63dc8c5f6fc8682a2b53f50aa0167caa038e852?context=repo
 
 ```
+<details>
+   
+![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-03-docker-intro/png/docker_1.png)
+   
+</details>
+
+<details>
+   
+![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-03-docker-intro/png/docker_2.png)
+   
+</details>
 
 
 ## Задача 2
@@ -62,6 +73,11 @@ Hey, Netology
 kuliaev@docker:~/custom-nginx$ 
 
 ```
+<details>
+   
+![Screnshot](https://github.com/mkuliaev/sflt-homeworks/blob/main/png/pkt/routers.png)
+   
+</details>
 
 ## Задача 3
 1. Воспользуйтесь docker help или google, чтобы узнать как подключиться к стандартному потоку ввода/вывода/ошибок контейнера "custom-nginx-t2".
