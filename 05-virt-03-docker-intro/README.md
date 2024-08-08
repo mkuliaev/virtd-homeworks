@@ -30,7 +30,7 @@ __________________
    
 </details>
 
-[dockerhub-репозитории Kuliaev](https://hub.docker.com/layers/mkuliaev/custom-nginx/1.0.0/images/sha256-395b4b6a90e1dde55847d4ccc63dc8c5f6fc8682a2b53f50aa0167caa038e852?context=repo)
+[ссылка на hub.docker.com/<kuliaev>/custom-nginx/general](https://hub.docker.com/layers/mkuliaev/custom-nginx/1.0.0/images/sha256-395b4b6a90e1dde55847d4ccc63dc8c5f6fc8682a2b53f50aa0167caa038e852?context=repo)
 
 
 <details>
