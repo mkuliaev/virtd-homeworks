@@ -52,6 +52,11 @@ __________________
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
 
 ```
+docker run -d --name "MYK-custom-nginx-t2" -p 127.0.0.1:8080:80 mkuliaev/custom-nginx:1.0.0
+docker rename "MYK-custom-nginx-t2" custom-nginx-t2
+```
+
+```
 08-08-2024 15:58:37.168684935 +12
 CONTAINER ID   IMAGE                         COMMAND                  CREATED              STATUS              PORTS                    NAMES
 4e3cffe6d256   mkuliaev/custom-nginx:1.0.0   "/docker-entrypoint.…"   About a minute ago   Up About a minute   127.0.0.1:8080->80/tcp   custom-nginx-t2
