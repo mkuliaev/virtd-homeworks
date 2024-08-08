@@ -41,7 +41,6 @@ https://hub.docker.com/layers/mkuliaev/custom-nginx/1.0.0/images/sha256-395b4b6a
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
 
 ```
-cker exec -it custom-nginx-t2 base64 /usr/share/nginx/html/index.html
 08-08-2024 15:58:37.168684935 +12
 CONTAINER ID   IMAGE                         COMMAND                  CREATED              STATUS              PORTS                    NAMES
 4e3cffe6d256   mkuliaev/custom-nginx:1.0.0   "/docker-entrypoint.…"   About a minute ago   Up About a minute   127.0.0.1:8080->80/tcp   custom-nginx-t2
@@ -50,7 +49,19 @@ LISTEN 0      4096       127.0.0.1:8080       0.0.0.0:*    users:(("docker-proxy
 PGh0bWw+CjxoZWFkPgpIZXksIE5ldG9sb2d5CjwvaGVhZD4KPGJvZHk+CjxoMT5JIHdpbGwgYmUg
 RGV2T3BzIEVuZ2luZWVyITwvaDE+CjwvYm9keT4KPC9odG1sPgo=
 ```
+```
+kuliaev@docker:~/custom-nginx$ curl http://127.0.0.1:8080
+<html>
+<head>
+Hey, Netology
+</head>
+<body>
+<h1>I will be DevOps Engineer!</h1>
+</body>
+</html>
+kuliaev@docker:~/custom-nginx$ 
 
+```
 
 ## Задача 3
 1. Воспользуйтесь docker help или google, чтобы узнать как подключиться к стандартному потоку ввода/вывода/ошибок контейнера "custom-nginx-t2".
