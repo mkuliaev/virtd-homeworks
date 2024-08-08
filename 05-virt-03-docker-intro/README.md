@@ -28,6 +28,7 @@ https://hub.docker.com/layers/mkuliaev/custom-nginx/1.0.0/images/sha256-395b4b6a
 
 ```
 
+
 ## Задача 2
 1. Запустите ваш образ custom-nginx:1.0.0 командой docker run в соответвии с требованиями:
 - имя контейнера "ФИО-custom-nginx-t2"
@@ -38,6 +39,17 @@ https://hub.docker.com/layers/mkuliaev/custom-nginx/1.0.0/images/sha256-395b4b6a
 4. Убедитесь с помощью curl или веб браузера, что индекс-страница доступна.
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
+
+```
+cker exec -it custom-nginx-t2 base64 /usr/share/nginx/html/index.html
+08-08-2024 15:58:37.168684935 +12
+CONTAINER ID   IMAGE                         COMMAND                  CREATED              STATUS              PORTS                    NAMES
+4e3cffe6d256   mkuliaev/custom-nginx:1.0.0   "/docker-entrypoint.…"   About a minute ago   Up About a minute   127.0.0.1:8080->80/tcp   custom-nginx-t2
+LISTEN 0      4096       127.0.0.1:8080       0.0.0.0:*    users:(("docker-proxy",pid=7046,fd=4))    
+2024/08/08 03:57:21 [notice] 1#1: start worker process 42
+PGh0bWw+CjxoZWFkPgpIZXksIE5ldG9sb2d5CjwvaGVhZD4KPGJvZHk+CjxoMT5JIHdpbGwgYmUg
+RGV2T3BzIEVuZ2luZWVyITwvaDE+CjwvYm9keT4KPC9odG1sPgo=
+```
 
 
 ## Задача 3
