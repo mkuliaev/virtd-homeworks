@@ -293,8 +293,8 @@ kuliaev@docker:/tmp/netology/docker/task5$
 </details>
 
 ```
-Docker Compose ищет файл с именем compose.yaml. Если такого файла нет, он ищет файл с именем  docker-compose.yaml/yml. 
-В данном случае файл compose.yaml был найден.
+Docker Compose поддерживает файлы конфигурации в формате YAML. Имя файла конфигурации по умолчанию — compose.yaml.
+Если такого файла нет, он ищет файл с именем  docker-compose.yaml/yml.
 ```
 
 ```
