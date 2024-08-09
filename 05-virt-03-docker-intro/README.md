@@ -169,6 +169,43 @@ root@docker:/home/kuliaev/custom-nginx#
 
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
+__________________
+
+```
+kuliaev@docker:~$ docker run -d --name centos-container -v $(pwd):/data centos:latest tail -f /dev/null
+Unable to find image 'centos:latest' locally
+latest: Pulling from library/centos
+a1d0c7532777: Pull complete 
+Digest: sha256:a27fd8080b517143cbbbab9dfb7c8571c40d67d534bbdee55bd6c473f432b177
+Status: Downloaded newer image for centos:latest
+9bfe5ce10d374632c2d8577144804c4bbd0b18c5fbd3f5613a29994feca5f01c
+kuliaev@docker:~$ docker run -d --name debian-container -v $(pwd):/data debian:latest tail -f /dev/null
+Unable to find image 'debian:latest' locally
+latest: Pulling from library/debian
+ca4e5d672725: Pull complete 
+Digest: sha256:45f2e735295654f13e3be10da2a6892c708f71a71be845818f6058982761a6d3
+Status: Downloaded newer image for debian:latest
+6c671d35ec8feb4bc88736953306141992cfbad0cf65f3431cbcc2a8a7f661e2
+kuliaev@docker:~$ docker exec -it centos-container /bin/bash
+[root@9bfe5ce10d37 /]# echo "centos:latest tail -f /dev/null )))))))" > /data/centos_file.txt
+[root@9bfe5ce10d37 /]# exit
+exit
+kuliaev@docker:~$ echo " host machine " > $(pwd)/host_file.txt
+kuliaev@docker:~$ docker exec -it debian-container /bin/bash
+root@6c671d35ec8f:/# ls /data
+centos_file.txt  host_file.txt
+root@6c671d35ec8f:/# cat /data/centos_file.txt
+centos:latest tail -f /dev/null )))))))
+root@6c671d35ec8f:/# cat /data/host_file.txt
+ host machine 
+root@6c671d35ec8f:/# 
+
+```
+<details>
+   
+![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-03-docker-intro/png/docker_2_2.png)
+   
+</details>
 
 
 ## Задача 5
