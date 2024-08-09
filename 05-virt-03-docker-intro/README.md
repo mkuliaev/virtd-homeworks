@@ -203,7 +203,7 @@ root@6c671d35ec8f:/#
 ```
 <details>
    
-![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-03-docker-intro/png/docker_2_2.png)
+![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-03-docker-intro/png/docker_4_1.png)
    
 </details>
 
