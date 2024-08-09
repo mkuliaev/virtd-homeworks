@@ -258,9 +258,35 @@ services:
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод, файл compose.yaml , скриншот portainer c задеплоенным компоузом.
 
 ---
+```
+kuliaev@docker:~$ mkdir -p /tmp/netology/docker/task5
+kuliaev@docker:~$ cd /tmp/netology/docker/task5
+kuliaev@docker:/tmp/netology/docker/task5$ nano compose.yaml
+kuliaev@docker:/tmp/netology/docker/task5$ nano docker-compose.yaml
+kuliaev@docker:/tmp/netology/docker/task5$ docker compose up -d
+WARN[0000] Found multiple config files with supported names: /tmp/netology/docker/task5/compose.yaml, /tmp/netology/docker/task5/docker-compose.yaml 
+WARN[0000] Using /tmp/netology/docker/task5/compose.yaml 
+WARN[0000] /tmp/netology/docker/task5/compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+[+] Running 12/12
+ ✔ portainer Pulled                                                                                                                                                                                            10.0s 
+   ✔ 57654d40e0a5 Pull complete                                                                                                                                                                                 0.6s 
+   ✔ 1f476acfabd6 Pull complete                                                                                                                                                                                 0.7s 
+   ✔ 5171176db7f2 Pull complete                                                                                                                                                                                 1.8s 
+   ✔ 52e9438966a5 Pull complete                                                                                                                                                                                 2.7s 
+   ✔ 43d4775415ac Pull complete                                                                                                                                                                                 3.3s 
+   ✔ c1cad9f5200f Pull complete                                                                                                                                                                                 3.8s 
+   ✔ a5e2b359b78b Pull complete                                                                                                                                                                                 3.9s 
+   ✔ eb172612bcbb Pull complete                                                                                                                                                                                 6.0s 
+   ✔ 6be7b2acffb5 Pull complete                                                                                                                                                                                 6.9s 
+   ✔ 391dff0fb880 Pull complete                                                                                                                                                                                 7.3s 
+   ✔ 4f4fb700ef54 Pull complete                                                                                                                                                                                 7.7s 
+[+] Running 2/2
+ ✔ Container task5-portainer-1                                          Started                                                                                                                                 1.0s 
+ ! portainer Published ports are discarded when using host network mode                                                                                                                                         0.0s 
+kuliaev@docker:/tmp/netology/docker/task5$ 
 
-### Правила приема
-
-Домашнее задание выполните в файле readme.md в GitHub-репозитории. В личном кабинете отправьте на проверку ссылку на .md-файл в вашем репозитории.
-
+```
+```
+Docker Compose ищет файл с именем docker-compose.yaml/yml. Если такого файла нет, он ищет файл с именем compose.yaml. В данном случае файл docker-compose.yaml был найден.
+```
 
