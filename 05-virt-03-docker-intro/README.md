@@ -293,8 +293,9 @@ kuliaev@docker:/tmp/netology/docker/task5$
 </details>
 
 ```
-Docker Compose поддерживает файлы конфигурации в формате YAML. Имя файла конфигурации по умолчанию — compose.yaml.
+Имя файла конфигурации Docker Compose по умолчанию — compose.yaml.
 Если такого файла нет, он ищет файл с именем  docker-compose.yaml/yml.
+
 ```
 
 ```
