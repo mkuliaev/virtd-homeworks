@@ -299,6 +299,23 @@ kuliaev@docker:/tmp/netology/docker/task5$
 ```
 
 ```
+kuliaev@docker:/tmp/netology/docker/task5$ nano compose.yaml 
+kuliaev@docker:/tmp/netology/docker/task5$ docker compose up -d
+WARN[0000] Found multiple config files with supported names: /tmp/netology/docker/task5/compose.yaml, /tmp/netology/docker/task5/docker-compose.yaml 
+WARN[0000] Using /tmp/netology/docker/task5/compose.yaml 
+WARN[0000] /tmp/netology/docker/task5/docker-compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+WARN[0000] /tmp/netology/docker/task5/compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+[+] Running 4/4
+ ✔ Container task5-portainer-1                                          Started                                                                                                                                                                0.8s 
+ ✔ Container task5-registry-1                                           Started                                                                                                                                                                1.0s 
+ ! registry Published ports are discarded when using host network mode                                                                                                                                                                         0.0s 
+ ! portainer Published ports are discarded when using host network mode                                                                                                                                                                        0.0s 
+kuliaev@docker:/tmp/netology/docker/task5$ 
+
 
 ```
-
+<details>
+   
+![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-03-docker-intro/png/docker_5_1.png)
+   
+</details>
