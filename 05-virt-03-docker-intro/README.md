@@ -316,6 +316,6 @@ kuliaev@docker:/tmp/netology/docker/task5$
 ```
 <details>
    
-![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-03-docker-intro/png/docker_5_1.png)
+![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-03-docker-intro/png/docker_5_2_new1.png)
    
 </details>
