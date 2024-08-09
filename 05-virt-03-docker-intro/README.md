@@ -293,6 +293,7 @@ kuliaev@docker:/tmp/netology/docker/task5$
 </details>
 
 ```
-Docker Compose ищет файл с именем docker-compose.yaml/yml. Если такого файла нет, он ищет файл с именем compose.yaml. В данном случае файл docker-compose.yaml был найден.
+Docker Compose ищет файл с именем docker-compose.yaml/yml. Если такого файла нет, он ищет файл с именем compose.yaml. 
+В данном случае файл docker-compose.yaml был найден.
 ```
 
