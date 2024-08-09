@@ -286,6 +286,12 @@ WARN[0000] /tmp/netology/docker/task5/compose.yaml: the attribute `version` is o
 kuliaev@docker:/tmp/netology/docker/task5$ 
 
 ```
+<details>
+   
+![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-03-docker-intro/png/docker_5_1.png)
+   
+</details>
+
 ```
 Docker Compose ищет файл с именем docker-compose.yaml/yml. Если такого файла нет, он ищет файл с именем compose.yaml. В данном случае файл docker-compose.yaml был найден.
 ```
