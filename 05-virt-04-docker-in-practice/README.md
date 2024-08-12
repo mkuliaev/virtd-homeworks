@@ -92,5 +92,4 @@ See 'snap info docker' for additional versions.
 Запустите ваше python-приложение с помощью runC, не используя docker или containerd.  
 Предоставьте скриншоты  действий .
 
-test6 nnnn 
-
+problem
