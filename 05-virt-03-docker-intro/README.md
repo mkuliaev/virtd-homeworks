@@ -320,5 +320,5 @@ kuliaev@docker:/tmp/netology/docker/task5$
    
 </details>
 
-Немного не успеваю по времени. 
+
 
