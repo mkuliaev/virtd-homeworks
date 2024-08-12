@@ -91,3 +91,6 @@ See 'snap info docker' for additional versions.
 ## Задача 7 (***)
 Запустите ваше python-приложение с помощью runC, не используя docker или containerd.  
 Предоставьте скриншоты  действий .
+
+test6 nnnn 
+
