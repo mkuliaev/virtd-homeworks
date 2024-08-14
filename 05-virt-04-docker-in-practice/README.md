@@ -92,5 +92,23 @@ See 'snap info docker' for additional versions.
 Запустите ваше python-приложение с помощью runC, не используя docker или containerd.  
 Предоставьте скриншоты  действий .
 
-problem
-111
+```
+version: '3.8'
+
+services:
+  db:
+    image: postgres:12
+    container_name: postgres12
+    environment:
+      POSTGRES_USER: kuliaev
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: kuliaev-db
+    volumes:
+      - db_data:/var/lib/postgresql/data
+      - db_backups:/backups
+
+volumes:
+  db_data:
+  db_backups:
+
+```  
