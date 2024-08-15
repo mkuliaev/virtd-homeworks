@@ -92,7 +92,7 @@ See 'snap info docker' for additional versions.
 Запустите ваше python-приложение с помощью runC, не используя docker или containerd.  
 Предоставьте скриншоты  действий .
 
-`
+```
 
 #!/bin/bash
 
@@ -107,7 +107,7 @@ mkdir -p $BACKUP_DIR
 docker run --rm --network backend --volumes-from $MYSQL_CONTAINER -v $BACKUP_DIR:/backup schnitzler/mysqldump \
     -u$MYSQL_USER -p$MYSQL_PASSWORD $MYSQL_DATABASE > $BACKUP_DIR/backup_$(date +%F_%T).sql
 
-` 
+```
 ```
 
 
