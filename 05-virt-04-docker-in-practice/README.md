@@ -93,22 +93,6 @@ See 'snap info docker' for additional versions.
 Предоставьте скриншоты  действий .
 
 ```
-version: '3.8'
 
-services:
-  db:
-    image: postgres:12
-    container_name: postgres12
-    environment:
-      POSTGRES_USER: kuliaev
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: kuliaev-db
-    volumes:
-      - db_data:/var/lib/postgresql/data
-      - db_backups:/backups
-
-volumes:
-  db_data:
-  db_backups:
 
 ```  
