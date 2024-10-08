@@ -25,7 +25,7 @@ See 'snap info docker' for additional versions.
    
 ![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/0.1.png)
    
-</details>
+
 
 ---
 
@@ -41,16 +41,16 @@ See 'snap info docker' for additional versions.
 
 <details>
    
-![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-03-docker-intro/png/docker_1.png)
+![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/1.1.11.png)
    
-</details>
+
 
 
 <details>
    
-![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/1.1.11.png)
+![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/1.1.png)
    
-</details>
+
 
 
 
@@ -85,15 +85,15 @@ See 'snap info docker' for additional versions.
 
 <details>
    
-![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-03-docker-intro/png/docker_1.png)
+![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/3.2.png)
    
-</details>
+
 
 <details>
    
-![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-03-docker-intro/png/docker_1.png)
+![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/3.5.png)
    
-</details>
+
 
 
 ## Задача 4
@@ -108,19 +108,24 @@ See 'snap info docker' for additional versions.
 
 <details>
    
-![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-03-docker-intro/png/docker_1.png)
+![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/4.1.png)
    
-</details>
+
 <details>
    
-![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-03-docker-intro/png/docker_1.png)
+![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/4.3.png)
    
-</details>
+
 <details>
    
-![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-03-docker-intro/png/docker_1.png)
+![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/4.4.png)
    
-</details>
+
+<details>
+   
+![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/4.6.png)
+   
+
 
 
 
