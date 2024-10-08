@@ -24,6 +24,8 @@ See 'snap info docker' for additional versions.
 <details>
    
 ![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/0.1.png)
+
+
    
 
 
@@ -42,6 +44,8 @@ See 'snap info docker' for additional versions.
 <details>
    
 ![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/1.1.11.png)
+
+
    
 
 
@@ -49,6 +53,8 @@ See 'snap info docker' for additional versions.
 <details>
    
 ![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/1.1.png)
+
+
    
 
 
@@ -86,12 +92,16 @@ See 'snap info docker' for additional versions.
 <details>
    
 ![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/3.2.png)
+
+
    
 
 
 <details>
    
 ![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/3.5.png)
+
+
    
 
 
@@ -109,21 +119,29 @@ See 'snap info docker' for additional versions.
 <details>
    
 ![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/4.1.png)
+
+
    
 
 <details>
    
 ![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/4.3.png)
+
+
    
 
 <details>
    
 ![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/4.4.png)
+
+
    
 
 <details>
    
 ![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/4.6.png)
+
+
    
 
 
