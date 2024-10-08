@@ -48,7 +48,7 @@ See 'snap info docker' for additional versions.
 
 <details>
    
-![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/1.1.png)
+![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/1.1.11.png)
    
 </details>
 
