@@ -21,14 +21,12 @@ See 'snap info docker' for additional versions.
 2. Убедитесь что у вас УСТАНОВЛЕН ```docker compose```(без тире) версии не менее v2.24.X, для это выполните команду ```docker compose version```  
 ###  **Своё решение к задачам оформите в вашем GitHub репозитории!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
 
-<details>
+
    
 ![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/0.1.png)
 
 
-   
-
-
+  
 ---
 
 ## Задача 1
@@ -41,27 +39,18 @@ See 'snap info docker' for additional versions.
 ### ВНИМАНИЕ!
 !!! В процессе последующего выполнения ДЗ НЕ изменяйте содержимое файлов в fork-репозитории! Ваша задача ДОБАВИТЬ 5 файлов: ```Dockerfile.python```, ```compose.yaml```, ```.gitignore```, ```.dockerignore```,```bash-скрипт```. Если вам понадобилось внести иные изменения в проект - вы что-то делаете неверно!
 
-<details>
+
    
 ![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/1.1.11.png)
 
 
    
 
-
-
-<details>
    
 ![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/1.1.png)
 
 
    
-
-
-
-
-
-
 
 
 ---
@@ -89,15 +78,13 @@ See 'snap info docker' for additional versions.
 
 6. Остановите проект. В качестве ответа приложите скриншот sql-запроса.
 
-<details>
+
    
 ![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/3.2.png)
 
 
-   
+  
 
-
-<details>
    
 ![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/3.5.png)
 
@@ -116,28 +103,28 @@ See 'snap info docker' for additional versions.
 
 [ссылку на fork-репозиторий kuliaev](https://github.com/mkuliaev/shvirtd-example-python/blob/main/README.md)
 
-<details>
+
    
 ![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/4.1.png)
 
 
    
 
-<details>
+
    
 ![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/4.3.png)
 
 
    
 
-<details>
+
    
 ![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/4.4.png)
 
 
    
 
-<details>
+
    
 ![Screnshot](https://github.com/mkuliaev/virtd-homeworks/blob/shvirtd-1/05-virt-04-docker-in-practice/png/4.6.png)
 
